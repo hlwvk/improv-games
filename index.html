@@ -15,7 +15,14 @@
     <script src="js/index.js"></script>	
   </head>
   <body>
-  <button type="button">Click Me!</button> 
+  <h1>Header</h1>
+  <button onclick="myFunction()">Click me</button> 
+  
+  <script>
+  function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+  }
+  </script>
   <style type="text/css">
     html, body {
       width: 100%;

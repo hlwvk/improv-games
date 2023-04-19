@@ -50,8 +50,8 @@ var width, height;
 // initialize timer variable and frame counter
 var t0, t1;
 // first time running resize funciton?
-//var needToInitializeCanvas = true;
-var needToInitializeCanvas = false;
+var needToInitializeCanvas = true;
+//var needToInitializeCanvas = false;
 var canvasElement, ctx;
 // mobile check
 var isMobile; var mobileOS;

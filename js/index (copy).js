@@ -423,8 +423,8 @@ function rsize(e) {
 	var lastWidth = width;
 	var lastHeight = height;
   
-	width = window.innerWidth;
-	height = window.innerHeight;
+	width = window.innerWidth * 2;
+	height = window.innerHeight * 2;
 	// Aspect ratio of the window - e.g. 1.0 = square, 2.0 = 2:1 horizontal, 0.5 = 1:2 vertical.
 	aspectRatio = width/height;
 	

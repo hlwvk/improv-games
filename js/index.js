@@ -9,7 +9,7 @@ var query = window.location.search.slice(1);
 // --------------------------------------------------
 // What global mode are we in?
 // 0: Harmonics (the wavy things), 1: Strings (plucking strings)
-var MODE = 0;
+var MODE = 1;
 
 function parseQueryString(){
 	var q = window.location.search.slice(1).split('&');
